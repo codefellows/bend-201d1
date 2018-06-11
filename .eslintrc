@@ -1,0 +1,30 @@
+{
+   "settings": {
+    "ecmascript": 5
+  },
+  "ecmaFeatures": {
+  },
+  "env": {
+    "browser": true,
+    "jquery": true
+  },
+  "rules": {
+    "semi": [2, "always"],
+    "strict": [2, "global"],
+    "no-undefined": 2,
+    "no-unused-vars": [2, {"vars": "all", "args": "after-used"}],
+    "indent": [2, 2],
+    "quotes": [1, "single"],
+    "no-multi-spaces": [1, {
+      "exceptions": {
+        "VariableDeclarator": true,
+        "FunctionExpression": true
+      }
+    }],
+    "space-infix-ops": [2, {"int32Hint": false}],
+    "no-trailing-spaces": 1,
+    "no-mixed-spaces-and-tabs": 1,
+    "new-cap": 1,
+    no-redeclare: [2, { "builtinGlobals": true }]
+  }
+}
