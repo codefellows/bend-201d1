@@ -19,9 +19,7 @@
 
   - **Reminder:** Quizzes are open-book, so use the resources you choose to figure out the answers: books, internetz, JS console in your browser, whatever. And remember that the quizzes are preparing you for the 301 entrance exam, which you will take on the last weekend of this class (right before Project Week).
   - **Reminder:** Weekly surveys will go out to students in email today. Your survey responses are very helpful and meaningful to us. Feedback is a gift.
-  - We will wrap class by 11:45 today. Why? Today is your first **Partner Power Hour**, which is when we have alums and industry partners come give a lunchtime presentation. Recall, Brandy talked about these on the very first day, and your attendance is required. Here's [info on the presentation](https://www.eventbrite.com/e/partner-power-hour-working-with-a-product-manager-tickets-42956624420). The presentation starts at 12:15, so us stopping class at 11:45 gives you a solid 30 minutes to grab a bite and a break.
-  - Sam's Code 301 class is doing their presentations of final projects this afternoon at 1:30p. They have been in Project Week all week, just as you will be in Week 4 of our class. You should try to go watch at least one project team's presentation today just to get a feel for what those are like.
-	- *Note: On project presentation days, lunch is provided for the students who are presenting. Unfortunately... that ain't you. Yet. But if, at the end of lunch, there are leftovers, you're welcome to partake!*
+  
 
 
 **Learning Objectives**
