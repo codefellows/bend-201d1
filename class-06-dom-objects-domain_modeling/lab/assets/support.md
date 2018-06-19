@@ -60,11 +60,11 @@ Here are the starting numbers that you'll need to build these objects:
 
 Location        | Min / Cust | Max / Cust | Avg Cookie / Sale
 ----------------|------------|------------|-------------------
-1st and Pike      |      23    |     65     |        6.3
-SeaTac Airport  |      3     |     24     |        1.2
-Seattle Center     |      11    |     38     |        3.7
-Capitol Hill |      20    |     38     |        2.3
-Alki            |      2     |     16     |        4.6
+College and Pence |      23    |     65     |        6.3
+Chandler and 14th |      3     |     24     |        1.2
+Fresno and 14th |      11    |     38     |        3.7
+Minnesota and Bond |      20    |     38     |        2.3
+NE Neff and NE Williamson |      2     |     16     |        4.6
 
 These numbers are simply Pat's estimates for now, but eventually, once there has been some history collected that provides more accurate numbers, we'll want the ability to update these numbers for each location, and to add/remove locations. But we'll not build all of that today. **Make sure to make each location is its own JavaScript object**.
 
