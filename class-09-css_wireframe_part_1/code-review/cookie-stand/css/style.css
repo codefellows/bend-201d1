@@ -1,0 +1,133 @@
+
+.header{
+  max-width: 960px;
+  margin: auto;
+  background-position: center;
+  background: #fcfdfe;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 140px;
+}
+/* top nav bar with links */
+a:link, a:visited {
+  background-color: #fcfdfe;
+  color:#666;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+.topnav{
+    overflow: hidden;
+    max-width: 100%;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    display: block;
+    padding: 10px 30px;
+    background-color: #cdc9c7; 
+    text-align: center;
+    text-decoration-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+/* links change color when hovering */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #998d86;
+}
+body {
+  background: #998d86; 
+  color: #666;
+  line-height: 1em;
+  padding: 10 px;
+  max-width: 960px; 
+  margin: auto;
+  background-size: auto s;
+}
+.backgroundbody{
+  background: white;
+  background-size: 100%, 90%;
+  padding: 20px;
+}
+.table, th, td {
+  border: 1px solid grey;
+  padding: 1px;
+  align-content: center;
+  text-align: left;
+  margin-left:auto; 
+  margin-right:auto; 
+  width:100px;
+  border-collapse: collapse;
+}
+.th {
+  align-content: center;
+  font-style: bold;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2em;
+  color: grey;
+  text-align: center;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.5em;
+  color: grey;
+  margin-top: 0.67em;
+  margin-bottom: .67em;
+  text-align: center;
+  padding: .2em;
+}
+
+ul {list-style-type: disc; 
+} 
+ol {list-style-type: decimal;   
+}
+.text {
+  border: 25px grey;
+  padding: 25px;
+  margin: 10px;
+  max-width: 90%;
+}
+.skills {
+  background: white;
+  float: left;
+  width: 62%;
+  padding: 25px;
+  margin-top: 10px;
+  
+}
+.topTen {
+  background: #fff;
+  line-height: 1em;
+  float: right;
+  width: 26%;
+  padding: 25px;
+  margin-top: 10px;
+}
+
+.skills, .topTen {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0;
+}
+.fishimg{
+  /* max-width: 960px; */
+  margin: auto;
+  align-content: center;
+  background: #fcfdfe;
+  height: 100px;
+}
+.footer { 
+  padding:1em;
+  display: block;
+  text-align: center;
+  background:fcfdfe;
+  max-width: 960px;
+}
+.sales {
+  text-align: center;
+}

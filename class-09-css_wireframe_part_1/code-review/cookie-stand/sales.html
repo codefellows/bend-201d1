@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Salmon Cookies</title>
+  <link href="https://fonts.googleapis.com/css?family=Neucha|Open+Sans+Condensed:300" rel="stylesheet">
+
+</head>
+<body> <div id="container"> </div> 
+  <div class="header"> 
+      <img src="img/simple-logo-nosalmon.jpg" alt="SalmonCookies">
+      </div>
+        <!-- navbar- home, about, contact, game -->
+  <div class="topnav">
+      <a href="/#">home</a>
+      <a href="/stylesheet.html">style</a>
+      <a href="/sales.html">sales</a>
+      <a href="/#">Contact</a>
+    </div>
+    <div class="backgroundbody"> 
+      <form id="add-location">
+        <fieldset>
+          <legend>Add A New Location</legend>
+          <!-- label-Name -->
+          <!-- input- name text size -->
+          <label for= "name">Name: </label>
+          <input name= "name" type="text" size="50" />
+          <br>
+          <!-- label-minCust -->
+          <!-- input- minCust text size -->
+          <label for= "minCust">Minimum Numer of Customers Per Hour: </label>
+          <input name= "minCust" type="number" size="50" />
+          <br>
+          <!-- label-maxCust -->
+          <!-- input- maxCust text size -->
+          <label for= "maxCust">Maximum Number of Customers Per Hour: </label>
+          <input name= "maxCust" type="number" size="50" />
+          <br>
+          <!-- label-AveCookPerHour -->
+          <!-- input- ACPH text size -->
+          <label for= "avgCookiePerSale">Average Number of Cookies per Hour:</label>
+          <input name= "avgCookiePerSale" type="number" step="any" size="50" />
+          <br>
+        <!-- button -->
+        <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+      <div class="text"></div>
+      <!-- table with details table -->
+  <section id="store-table">
+      <div class="sales">Daily Cookie Sales</div>
+      <table id="daily-cookies">
+          <tr></tr>
+         </table>
+  </section>
+  <script src="js/app.js"></script> 
+  <div class= "footer">
+      <p>    &copy;Salmon Cookies 2018  | Contact information: <a href="mailto:someone@salmoncookies.com">crazybaker@salmoncookies.com</a></p>
+      </div>
+    </div>
+</body>
+</html>
