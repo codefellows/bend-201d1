@@ -89,9 +89,10 @@ var data = {
 
 function drawChart() {
   var ctx = document.getElementById('funky-chart').getContext('2d');
+
   songChart = new Chart(ctx, {
-    type: 'doughnut',
-    data: data,
+    type: 'scatter',
+    data: data, //created above
     options: {
       responsive: false,
       animation: {
@@ -109,6 +110,7 @@ function drawChart() {
       }]
     }
   });
+
   chartDrawn = true;
 }
 
