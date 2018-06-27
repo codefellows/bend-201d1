@@ -1,0 +1,10 @@
+img {
+  width: 150px;
+  display: inline;
+  /* float: left; */
+}
+
+div {
+  float: left;
+  position: relative;
+}
