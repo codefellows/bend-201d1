@@ -61,7 +61,7 @@ button {
 }
 
 .wiggle {
-  animation: wiggle 1s infinite;
+  animation: wiggle 1s infinite ;
 }
 
 @keyframes fontgrower {
