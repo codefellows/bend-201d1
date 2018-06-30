@@ -1,54 +1,57 @@
-# Project Week, Day 1
+# Class 16 - Project Week: Milestone 1
 
-### Final Project Rules and Process
-For your final project, your task is to work with a team to build a web site that simulates a real-world product, service, or game.
+## Planning phase
+Welcome to project week! This first day is all about scoping your project and getting it planned out. You have a lot to do today...let's get started.
 
-**Rules:**
+### User stories
+Write user stories for each possible role. User stories follow the format of: `As a ___, I want ___ so that ___`. Remember, user stories tell...
+- Who needs a feature (and a brief descriptor of their role/relationship to the app)
+- What they want that feature to do
+- Why they want it
 
-Your team must adhere to the following requirements.
-* There can be no more than 4 people per team.
-* Each person must make meaningful contributions in HTML, CSS, and JavaScript.
-* Your web site must have at least 3 interlinked pages and clear navigation.
-* Your web site must have at least 2 pages that accept and process user input.
-* Your web site's state must persist between page reloads.
-* Your web site must be deployed live on the Internet.
+If you want a feature in the app, you MUST have at least one user story (preferably more, if multiple users want it) that requires it. No exceptions.
 
-**Process:**
+Write your user stories in a `user-stories.md` file in your repo.
 
-Here's the process that we'll be using for project week.
-1. On the first day of project week, by noon, your team must submit a proposal to the instructional staff.
-2. During project week, your team must work on-campus so we can help whenever your team is stuck.
-3. On the last day of project week, your team must present your project in front of the class.
+### Establish MVP
+Now for the hard part. Take your user stories and prioritize.
 
+What absolutely has to be part of your app for it to ship? (Another way to think of this is: if the app is missing a certain feature, can you still use it?) This is your MVP. In your `user-stories.md` file, move these user stories into an MVP section.
+
+The remaining user stories are your stretch goals. In the `user-stories.md` file, move them into a "Stretch Goals" section. Then, list them in order from easiest to implement (at the top) to hardest to implement (at the bottom). If you get your MVPs done and still have time, you'll tackle the stretch goals.
+
+### Project Domain/Data models
+Now, take the MVPs and grab a whiteboard. Create some drawings that show how you will model your real-world problem in code. What objects and methods do you need? How do they relate to and interact with each other? How will you store your data? Take a picture of your model(s) and add them to your repo, in a folder called "domain models".
+
+### Wireframes
+Create wireframes for each of your pages. Start with pencil-and-paper. After that, save them to your repo in a folder called "wireframes". You can either take pictures of your pencil-and-paper wireframes, or use a wireframe creation tool (there are many online).
 
 ### Project proposals
+Finally, find your instructor and present your proposal. (First come, first served.) You must have your:
+- Project pitch
+- Group agreement
+- User stories
+- Domain/data models
+- Wireframes
 
-1. On the first day of project week, your team must submit a proposal to an instructor with the following information:
+### Technical requirements
+Once you have instructor approval, break your MVP user stories down into technical requirements. Save these in a technical-requirements.md file in your repo.
 
- - Your team's name (if desired)
- - Your team's members
- - Your project's pitch. (What is the problem statement and what are the benefits of your solution? Read more about these [here](https://www.bidsketch.com/proposal-resources/proposal-templates/web-design-proposal-template).)
- - A diagram of relevant details from your project's domain model
- - A few wireframe sketches of your project's pages
+### Tasks and your GitHub project
+Almost there! Now that you have your technical requirements done, it's time to set up your project in GitHub and create tasks.
 
- **TIP:** Use pencil and paper to diagram and sketch.
+In your repo, create a project. Give it three columns: `To Do`, `In Progress`, and `Done`.
 
-   Proposals, written or electronic, as per the project description, are due for review with the instruction team. First come, first served!
+Now, look at your technical requirements. For each one, determine what, exactly, needs to be done in code. Then, break this work down into 30 minute to 2-hour chunks. Each one of these "chunks" will be a task - a.k.a. an "issue" on GitHub.
 
-  **Ideally done by 12pm today.**
+For each task, create a card in the GitHub project. Turn each one into a GitHub issue. In the issue, give a brief explanation of what needs to be done; reference wireframes/data models/etc. if need be. Assign the issue to each person who works on the issue.
 
-2.
-Here are some tips on how to organize your team during the launch phase.
+Finally, arrange the To Dos in order of what needs to be completed first. As you arrange, give some thought as to what issues "block" other ones. Strive to get your HTML and JS to MVP first. This means you probably won't be writing much CSS until then. Get the functionality done first, before you get too deep into CSS.
 
- * Elect a Launch Driver who will be responsible for the following:
-    * Driving the coding of the initial scaffolding phase.
-    * Hosting the code under their GitHub account (or create a new GitHub organization for your team and an organizational repo for the project)
- * The rest of the team will be Launch Navigators and responsible for the following:
-      * Navigating the coding of the initial scaffolding phase.
-      * Staying one-step ahead of the Launch Driver by researching unfamiliar technology.
- * Once everyone is in agreement, here's how to launch a new  project.
-      * Build a basic file scaffold from scratch **as a team**.
-      * Initialize a new git repository (in a personal or organization account).
-      * Push it to GitHub and [add your team members as Collaborators](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/).
+### Review
+At this point, go take a 15-minute break. (Really. We mean it. You need your brain to take a break before your final review of your tasks.) Finally, as a group, review your user stories and tasks one more time to see if there are any needed changes.
 
-Make a plan, and get to work!
+### Start coding
+Now you can start writing some code! Pick up tasks in the order that they need to be completed. You can pair-program or not, based on what you think will be more efficient for your team.
+
+Good luck, and may the code be with you.
